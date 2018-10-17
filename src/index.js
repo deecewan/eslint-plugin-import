@@ -26,6 +26,7 @@ export const rules = {
   'max-dependencies': require('./rules/max-dependencies'),
   'no-extraneous-dependencies': require('./rules/no-extraneous-dependencies'),
   'no-absolute-path': require('./rules/no-absolute-path'),
+  'no-path-matching-pattern': require('./rules/no-path-matching-pattern'),
   'no-nodejs-modules': require('./rules/no-nodejs-modules'),
   'no-webpack-loader-syntax': require('./rules/no-webpack-loader-syntax'),
   'order': require('./rules/order'),
